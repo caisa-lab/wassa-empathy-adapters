@@ -1,0 +1,19 @@
+{
+  "config": {
+    "activation_function": "tanh",
+    "bias": true,
+    "head_type": "classification",
+    "label2id": {
+      "LABEL_0": 0
+    },
+    "layers": 2,
+    "num_labels": 1,
+    "use_pooler": false
+  },
+  "hidden_size": 768,
+  "model_class": "RobertaModelWithHeads",
+  "model_name": "roberta-base",
+  "model_type": "roberta",
+  "name": "wassa_empathy",
+  "version": "3.0.0"
+}
