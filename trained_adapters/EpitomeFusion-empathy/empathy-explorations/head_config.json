@@ -1,0 +1,21 @@
+{
+  "config": {
+    "activation_function": "tanh",
+    "bias": true,
+    "head_type": "classification",
+    "label2id": {
+      "0": 0,
+      "1": 1,
+      "2": 2
+    },
+    "layers": 2,
+    "num_labels": 3,
+    "use_pooler": false
+  },
+  "hidden_size": 768,
+  "model_class": "RobertaModelWithHeads",
+  "model_name": "roberta-base",
+  "model_type": "roberta",
+  "name": "empathy-explorations",
+  "version": "3.0.0"
+}
