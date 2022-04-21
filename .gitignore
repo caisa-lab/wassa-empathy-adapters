@@ -2,6 +2,8 @@ training_output
 logs
 wandb
 hid
+epitome-dataset/*.csv
+data/EPITOME.pickle
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
