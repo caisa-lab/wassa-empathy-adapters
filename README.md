@@ -3,6 +3,29 @@
 Experimental code for CAISA at WASSA 2022: Adapter-Tuning for Empathy Prediction
 
 
+## Citation
+
+If you use [our work](https://aclanthology.org/2022.wassa-1.31/), please cite our paper
+
+```
+@inproceedings{lahnala-etal-2022-caisa,
+    title = "{CAISA} at {WASSA} 2022: Adapter-Tuning for Empathy Prediction",
+    author = "Lahnala, Allison  and
+      Welch, Charles  and
+      Flek, Lucie",
+    booktitle = "Proceedings of the 12th Workshop on Computational Approaches to Subjectivity, Sentiment {\&} Social Media Analysis",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.wassa-1.31",
+    doi = "10.18653/v1/2022.wassa-1.31",
+    pages = "280--285",
+    abstract = "We build a system that leverages adapters, a light weight and efficient method for leveraging large language models to perform the task Em- pathy and Distress prediction tasks for WASSA 2022. In our experiments, we find that stacking our empathy and distress adapters on a pre-trained emotion lassification adapter performs best compared to full fine-tuning approaches and emotion feature concatenation. We make our experimental code publicly available",
+}
+```
+
+
 ## EmotionStack
 
 [Empathy_Distress_Inference.ipynb](./Empathy_Distress_Inference.ipynb): Code to use pretrained empathy and distress adapters (stacked on emotion adapter) to predict empathy and distress scores.
